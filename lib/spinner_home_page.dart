@@ -115,8 +115,8 @@ class SpinnerHomePageState extends State<SpinnerHomePage> {
           const SizedBox(height: 16),
           // if(_names.length > 1)
           SizedBox(
-            height: 300,
-            width: 300,
+            height: MediaQuery.sizeOf(context).height * .7,
+            width: MediaQuery.sizeOf(context).height * .7,
             child: GestureDetector(
                 onTap: () {
                   setState(() {
