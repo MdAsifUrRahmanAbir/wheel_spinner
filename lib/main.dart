@@ -14,8 +14,7 @@ class SpinnerApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Spinner',
-      // theme: ThemeData(primarySwatch: Colors.blue),
+      title: 'Wheel Spinner',
       home: SpinnerHomePage(),
     );
   }
