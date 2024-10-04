@@ -149,7 +149,9 @@ class SpinnerHomePageState extends State<SpinnerHomePage> {
                   onAnimationEnd: () {
                     debugPrint("Winner");
                     debugPrint(_winner);
-                    _showWinnerDialog();
+                    if(_winner!.isNotEmpty) {
+                      _showWinnerDialog();
+                    }
                   },
                 )),
           ),
